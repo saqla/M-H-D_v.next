@@ -2,7 +2,7 @@ import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
-  url = '/'
+  url = 'https://m-h-d-v-next.vercel.app/'
   title = 'M-H-D'
   description = 'Final Fantasy XIV FC Page Next.js_Version'
 

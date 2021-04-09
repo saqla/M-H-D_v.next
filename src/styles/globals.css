@@ -1,4 +1,20 @@
 @tailwind base;
 @tailwind components;
 
+/* html {
+  @apply text-base;
+}
+
+@screen md {
+  html {
+    @apply text-2xl;
+  }
+} */
+
+body {
+  @apply bg-white text-xl overflow-x-hidden;
+  font-family:'Times New Roman', Times, serif, Times, serif;
+  color: #323232;
+}
+
 @tailwind utilities;
