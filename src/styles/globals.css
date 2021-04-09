@@ -17,4 +17,16 @@ body {
   color: #323232;
 }
 
+.flex-between {
+  @apply flex justify-between items-center;
+}
+.flex-around {
+  @apply flex justify-around items-center;
+}
+
+.y-border {
+  border-left: .5rem double white;
+  border-right: .5rem double white;
+}
+
 @tailwind utilities;
