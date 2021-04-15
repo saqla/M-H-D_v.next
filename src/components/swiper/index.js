@@ -23,6 +23,7 @@ export const SwiperComponent = () => {
       }}
       autoplay={true}
       loop='true'
+      loopAdditionalSlides={5}
       tag="section"
       wrapperTag="ul"
       breakpoints={{
