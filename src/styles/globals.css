@@ -31,15 +31,23 @@ body {
 
 .swiper-container {
   width: 300px;
-}
-
-.swiper-pagination {
-  bottom: 0;
-  padding-bottom: 10px;
+  height: 130px;
 }
 
 .swiper-wrapper {
   padding-inline-start: 0;
+}
+
+.swiper-container .swiper-button-prev {
+  left: 0;
+  top: 35%;
+  opacity: 0.5;
+}
+
+.swiper-container .swiper-button-next {
+  right: -3px;
+  top: 35%;
+  opacity: 0.5;
 }
 
 @tailwind utilities;
