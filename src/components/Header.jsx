@@ -5,7 +5,7 @@ import { SwiperComponent } from './swiper'
 
 export const Header = () => {
   return (
-    <div>
+    <>
       {/* タイトル */}
       <div className="flex-between my-2">
         <Link href="https://m-h-d-v-next.vercel.app/">
@@ -15,6 +15,6 @@ export const Header = () => {
       </div>
       <GlobalMenu />
       <SwiperComponent />
-    </div>
+    </>
   )
 }

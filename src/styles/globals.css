@@ -24,14 +24,16 @@ body {
   @apply flex justify-around items-center;
 }
 
+/* global Menu */
 .y-border {
   border-left: 0.5rem double white;
   border-right: 0.5rem double white;
 }
 
+/* Swiper Contents */
 .swiper-container {
   width: 300px;
-  height: 130px;
+  height: 155px;
 }
 
 .swiper-wrapper {
@@ -39,15 +41,27 @@ body {
 }
 
 .swiper-container .swiper-button-prev {
-  left: 0;
-  top: 35%;
+  left: 50px;
+  top: 50%;
   opacity: 0.5;
+  display: none;
+  @apply lg:flex;
 }
 
 .swiper-container .swiper-button-next {
-  right: -3px;
-  top: 35%;
+  right: 50px;
+  top: 50%;
   opacity: 0.5;
+  display: none;
+  @apply lg:flex;
+}
+
+.swiper-cube-shadow {
+  display: none;
+}
+
+.swiper-images {
+  @apply w-auto md:w-4/5 m-auto !important;
 }
 
 @tailwind utilities;
