@@ -18,6 +18,7 @@ export const SwiperComponent = () => {
       spaceBetween={0}
       slidesPerView={1}
       effect='cube'
+      cubeEffect={{slideShadows: false}}
       autoplay={true}
       loop='true'
       grabCursor='true'
