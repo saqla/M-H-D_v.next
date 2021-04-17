@@ -12,7 +12,7 @@ export const GlobalMenu = () => {
           </Link>
         </li>
         <li className="y-border">
-          <Link href="">
+          <Link href="https://jp.finalfantasyxiv.com/lodestone/">
             <p className="mx-3">トピックス</p>
           </Link>
         </li>
