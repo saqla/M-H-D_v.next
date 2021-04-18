@@ -7,20 +7,20 @@ export const GlobalMenu = () => {
       {/* グローバルメニュー */}
       <ul className="flex-around bg-black text-white text-2xl py-1">
         <li className="y-border">
-          <Link href="https://m-h-d.family/">
-            <p className="mx-3 cursor-pointer">トップページ</p>
+          <Link href="/">
+            <a className="mx-3 cursor-pointer">トップページ</a>
           </Link>
         </li>
         <li className="y-border">
           <Link href="https://jp.finalfantasyxiv.com/lodestone/">
-            <p className="mx-3 cursor-pointer">トピックス</p>
+            <a className="mx-3 cursor-pointer">トピックス</a>
           </Link>
         </li>
-        <li className="y-border">
+        {/* <li className="y-border">
           <Link href="">
-            <p className="mx-3 cursor-pointer">設定参考</p>
+            <a className="mx-3 cursor-pointer">設定参考</a>
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   )
