@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { Aside } from '../components/Aside'
 import { Header } from '../components/Header'
+import { Footer } from '../components/Footer'
 import { SwiperComponent } from '../components/Swiper'
 
 export default function Home() {
@@ -8,15 +9,21 @@ export default function Home() {
     <div className='container m-auto'>
       <Head>
         <title>M-H-D</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <Header />
       <main className='twoColumn-container'>
-        <SwiperComponent />
-        <Aside />
+        <div className='left-contents'>
+          <SwiperComponent />
+        </div>
+
+        <div className='right-contents'>
+          <Aside />
+        </div>
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }
