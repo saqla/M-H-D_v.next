@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 import { GlobalMenu } from './GlobalMenu'
-import { SwiperComponent } from './swiper'
 
 export const Header = () => {
   return (
@@ -14,7 +13,6 @@ export const Header = () => {
         <p className="text-sm mx-2 md:text-xl md:mx-5">Final Fantasy XIV 〜FCウェブページ〜</p>
       </div>
       <GlobalMenu />
-      <SwiperComponent />
     </>
   )
 }
