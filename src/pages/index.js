@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Aside } from '../components/Aside'
 import { Header } from '../components/Header'
-import { SwiperComponent } from '../components/swiper'
+import { SwiperComponent } from '../components/Swiper'
 
 export default function Home() {
   return (
