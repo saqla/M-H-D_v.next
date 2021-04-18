@@ -14,11 +14,11 @@ SwiperCore.use([Navigation, Pagination, EffectCube, Autoplay])
 export const SwiperComponent = () => {
   return (
     <Swiper
-      className='md:w-4/5 md:my-5 md:h-56 lg:h-72'
+      className='md:w-4/5 md:my-5 md:h-56'
       spaceBetween={0}
       slidesPerView={1}
       effect='cube'
-      cubeEffect={{slideShadows: false}}
+      cubeEffect={{ slideShadows: false }}
       autoplay={true}
       loop='true'
       grabCursor='true'

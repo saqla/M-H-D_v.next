@@ -5,7 +5,7 @@ export const GlobalMenu = () => {
   return (
     <div className="hidden md:block">
       {/* グローバルメニュー */}
-      <ul className="flex-around bg-black text-white text-2xl py-1 lg:text-4xl lg:py-3">
+      <ul className="flex-around bg-black text-white text-2xl py-1">
         <li className="y-border">
           <Link href="https://m-h-d.family/">
             <p className="mx-3 cursor-pointer">トップページ</p>
