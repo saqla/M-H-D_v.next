@@ -70,4 +70,9 @@ body {
   @apply lg:flex lg:justify-between;
 }
 
+/* TopTitle */
+.top-description {
+  border-top: 0.2rem solid gold;
+}
+
 @tailwind utilities;
