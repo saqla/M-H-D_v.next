@@ -1,22 +1,13 @@
 @tailwind base;
 @tailwind components;
 
-/* html {
-  @apply text-base;
-}
-
-@screen md {
-  html {
-    @apply text-2xl;
-  }
-} */
-
 body {
   @apply bg-white text-xl overflow-x-hidden relative;
   font-family: 'Times New Roman', Times, serif, Times, serif;
   color: #323232;
 }
 
+/* Header */
 .flex-between {
   @apply flex justify-between items-center;
 }
@@ -45,7 +36,7 @@ body {
   top: 50%;
   opacity: 0.5;
   display: none;
-  @apply lg:flex;
+  @apply lg:flex lg:left-5;
 }
 
 .swiper-container .swiper-button-next {
@@ -53,7 +44,7 @@ body {
   top: 50%;
   opacity: 0.5;
   display: none;
-  @apply lg:flex;
+  @apply lg:flex lg:right-5;
 }
 
 .swiper-cube-shadow {
@@ -62,6 +53,21 @@ body {
 
 .swiper-images {
   @apply w-auto md:w-4/5 m-auto !important;
+}
+@screen lg {
+  .swiper-container {
+    width: 682px !important;
+    /* height: 240px; */
+  }
+  .swiper-images {
+    width: 545px;
+    /* height: 213px; */
+  }
+}
+
+/* main */
+.twoColumn-container {
+  @apply lg:flex lg:justify-between;
 }
 
 @tailwind utilities;
