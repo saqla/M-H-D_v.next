@@ -75,4 +75,9 @@ body {
   border-top: 0.2rem solid gold;
 }
 
+/* Tabs */
+.tabs {
+  @apply m-2;
+}
+
 @tailwind utilities;

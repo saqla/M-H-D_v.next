@@ -4,6 +4,7 @@ import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import { SwiperComponent } from '../components/Swiper'
 import { TopTitle } from '../components/TopTitle'
+import { Tabs } from '../components/Tabs'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <div className='left-contents'>
           <SwiperComponent />
           <TopTitle />
+          <Tabs />
         </div>
 
         <div className='right-contents'>
