@@ -76,8 +76,56 @@ body {
 }
 
 /* Tabs */
+.tabs-container {
+  @apply flex relative;
+  flex-direction: column;
+  width: 90%;
+  background: #f1f1f1;
+  margin: 5px auto 0;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+}
+
 .tabs {
-  @apply m-2;
+  @apply p-4 text-center w-3/6 cursor-pointer box-content relative;
+  background: rgba(128, 128, 128, 0.075);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  outline: none;
+}
+
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  @apply block absolute h-1;
+  content: '';
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  background: rgb(88, 147, 241);
+}
+
+.content {
+  @apply p-5 w-full h-full hidden;
+  background: white;
+}
+
+.content h3 {
+  padding: 0px 0 5px 0px;
+}
+
+.content p {
+  @apply w-full h-full;
+}
+
+.active-content {
+  @apply block;
 }
 
 @tailwind utilities;
