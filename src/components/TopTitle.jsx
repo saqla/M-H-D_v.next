@@ -23,20 +23,5 @@ export const TopTitle = () => {
         </p>
       </div>
     </div>
-
-    // <div className="grid-container">
-    //   <img src='/mhd-symbol.jpg' alt='M-H-D タイトルネーム' className="top-symbol" />
-    //   <h1 className='italic top-title'>
-    //     M -{' '}
-    //     <Link href='https://www.blogbear.xyz/article/category/fashioncheck'>
-    //       <a className='text-red-600'>H</a>
-    //     </Link>{' '}
-    //     - D
-    //   </h1>
-    //   <p className="top-description">
-    //     もぅ・・・<span className='text-red-600'>本気</span>・・・出してる
-    //     <span className='text-red-600'>？</span>！
-    //   </p>
-    // </div>
   )
 }

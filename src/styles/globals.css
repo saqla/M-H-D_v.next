@@ -7,6 +7,10 @@ body {
   color: #323232;
 }
 
+a {
+  @apply text-blue-400;
+}
+
 /* Header */
 .flex-between {
   @apply flex justify-between items-center;
