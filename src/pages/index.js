@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import { Aside } from '../components/Aside/Aside'
+import { Aside } from '../components/Main/Aside/Aside'
 import { Header } from '../components/Header/Header'
 import { Footer } from '../components/Footer/Footer'
 import { SwiperComponent } from '../components/Main/Swiper'
 import { TopTitle } from '../components/Main/TopTitle'
 import { Tabs } from '../components/Main/Tabs'
+import { GlobalMenu } from '../components/Header/GlobalMenu'
 
 export default function Home() {
   return (
@@ -13,7 +14,11 @@ export default function Home() {
         <title>M-H-D</title>
       </Head>
 
-      <Header />
+      <header>
+        <Header />
+        <GlobalMenu />
+      </header>
+
       <main className='twoColumn-container'>
         <div className='left-contents'>
           <SwiperComponent />
@@ -25,6 +30,7 @@ export default function Home() {
           <Aside />
         </div>
       </main>
+
       <footer>
         <Footer />
       </footer>
