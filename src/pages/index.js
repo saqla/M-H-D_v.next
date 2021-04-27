@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import { Aside } from '../components/Aside'
-import { Header } from '../components/Header'
-import { Footer } from '../components/Footer'
-import { SwiperComponent } from '../components/Swiper'
-import { TopTitle } from '../components/TopTitle'
-import { Tabs } from '../components/Tabs'
+import { Aside } from '../components/Aside/Aside'
+import { Header } from '../components/Header/Header'
+import { Footer } from '../components/Footer/Footer'
+import { SwiperComponent } from '../components/Main/Swiper'
+import { TopTitle } from '../components/Main/TopTitle'
+import { Tabs } from '../components/Main/Tabs'
 
 export default function Home() {
   return (

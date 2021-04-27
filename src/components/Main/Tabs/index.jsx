@@ -169,11 +169,7 @@ const Tabs = () => {
           </div>
           <hr />
           <div>
-            <h3>
-              第61回
-              <br />
-              FFXIVプロデューサーレターLIVE
-            </h3>
+            <h3>第63回 FFXIVプロデューサーレターLIVE</h3>
             <iframe
               width='300'
               height='200'
