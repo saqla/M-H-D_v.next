@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 
+/* :root {
+  --sm-p-font-size: 0.875rem;
+} */
+
 body {
   @apply bg-white text-xl overflow-x-hidden relative;
   font-family: 'Times New Roman', Times, serif, Times, serif;
@@ -9,6 +13,10 @@ body {
 
 a {
   @apply text-blue-400;
+}
+
+p {
+  @apply text-sm;
 }
 
 /* Header */
@@ -90,7 +98,7 @@ a {
 }
 
 .tabs {
-  @apply p-4 text-center w-3/6 cursor-pointer box-content relative;
+  @apply p-1 text-center w-3/6 cursor-pointer box-content relative;
   background: rgba(128, 128, 128, 0.075);
   border-bottom: 1px solid rgba(0, 0, 0, 0.274);
   outline: none;
