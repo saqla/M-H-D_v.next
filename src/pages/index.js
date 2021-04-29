@@ -26,9 +26,9 @@ export default function Home() {
           <Tabs />
         </div>
 
-        <div className='right-contents'>
+        {/* <div className='right-contents'>
           <Aside />
-        </div>
+        </div> */}
       </main>
 
       <footer>
