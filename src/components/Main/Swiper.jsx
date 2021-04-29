@@ -18,12 +18,6 @@ const SWIPERITEMS = [
       'https://img.finalfantasyxiv.com/n/e9064e6f6a094d1c17bd01fa331fff7933dd5602.png?1618309015',
   },
   {
-    // エッグハント
-    href: 'https://sqex.to/oZAfv',
-    src:
-      'https://img.finalfantasyxiv.com/n/2595e2d5fd8325ad4be504dca6140c5ee23a4167.png?1618309015',
-  },
-  {
     // オンラインストア アルフィノなりきりセット
     href: 'https://sqex.to/qkUZv',
     src:
