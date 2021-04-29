@@ -11,6 +11,10 @@ const MENUITEMS = [
   },
   // {
   //   href: '/',
+  //   title: 'FCからのお願い'
+  // },
+  // {
+  //   href: '/',
   //   title: '設定参考',
   // },
 ]
@@ -24,7 +28,7 @@ export const GlobalMenu = () => {
           return (
             <li key={item.href} className='y-border'>
               <Link href={item.href}>
-                <a className='mx-3 cursor-pointer'>{item.title}</a>
+                <a className='mx-3 cursor-pointer text-white'>{item.title}</a>
               </Link>
             </li>
           )

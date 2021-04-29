@@ -16,10 +16,10 @@ a {
 }
 
 p {
-  @apply text-sm;
+  @apply text-sm md:text-xl;
 }
 
-/* Header */
+/* Flex-variation */
 .flex-between {
   @apply flex justify-between items-center;
 }
@@ -28,9 +28,10 @@ p {
 }
 
 /* global Menu */
+/* -- メニューの両サイドの縦棒 -- */
 .y-border {
-  border-left: 0.5rem double white;
-  border-right: 0.5rem double white;
+  border-left: 0.4rem double white;
+  border-right: 0.4rem double white;
 }
 
 /* Swiper Contents */
@@ -93,7 +94,7 @@ p {
   flex-direction: column;
   width: 90%;
   background: #f1f1f1;
-  margin: 5px auto 0;
+  margin: 15px auto 0;
   border: 1px solid rgba(0, 0, 0, 0.274);
 }
 
@@ -129,11 +130,12 @@ p {
 }
 
 .content h3 {
+  @apply text-center;
   padding: 0px 0 5px 0px;
 }
 
 .content p {
-  @apply w-full h-full;
+  @apply text-base md:text-xl w-full h-full tracking-wider;
 }
 
 .active-content {

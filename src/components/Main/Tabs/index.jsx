@@ -37,11 +37,6 @@ const Tabs = () => {
       tabTitle: 'M-H-D 紹介',
     },
     {
-      tabClassName: () => isActiveTab(2),
-      tabOnClick: () => toggleTab(2),
-      tabTitle: '伝達事項',
-    },
-    {
       tabClassName: () => isActiveTab(3),
       tabOnClick: () => toggleTab(3),
       tabTitle: 'PLL情報',
@@ -61,18 +56,18 @@ const Tabs = () => {
       contentPackage: (
         // information
         <>
-          <div>
+          <div className="mb-5">
             <h3>~FC紹介~</h3>
             <p>
-              うちは社会人FCなので、平日夕方から休日に２～５人ほどが活動している
+              うちは社会人FCなので、平日夕方&#x1f307;から休日&#x1f3d6;に２～５人ほどが活動している
               少数FCですが、少ない分みんな仲がイィですよ♪
               <br />
-              基本、ログイン・ログアウト時の挨拶が出来ればどなたでも歓迎です！！
+              基本、ログイン・ログアウト時の挨拶&#x1f64b;が出来ればどなたでも歓迎です！！
               <br />
               イフ鯖で活動していて、
               現在は私を筆頭にギャザラー＆クラフターがメインだったり、
               バトル好きの方など巣立って行った人を含めいろんなタイプがいますので、
-              新規・ベテラン問わずまずは体験からどうですか？＾＾。
+              新規・ベテラン問わずまずは体験からどうですか？&#x1f97a;
             </p>
           </div>
           {/* member */}
@@ -217,7 +212,7 @@ const Tabs = () => {
               className={item.tabClassName()}
               onClick={item.tabOnClick}
             >
-              <p>{item.tabTitle}</p>
+              <p className="text-base md:text-2xl">{item.tabTitle}</p>
             </li>
           )
         })}
