@@ -3,6 +3,8 @@
 
 :root {
   --mhd-gold: #d5c70b;
+  --mhd-gray: rgba(128, 128, 128, 0.075);
+  --mhd-blue: rgb(66, 122, 225);
 }
 
 body {
@@ -21,7 +23,7 @@ p {
 
 hr {
   @apply my-3;
-  border: 2px solid var(--mhd-gold);
+  border: 2px solid var(--mhd-blue);
 }
 
 /* Flex-variation */
@@ -32,14 +34,18 @@ hr {
   @apply flex justify-around items-center;
 }
 
-/* global Menu */
-/* -- メニューの両サイドの縦棒 -- */
+/* ----------- */
+/* Global Menu */
+/* ----------- */
+/* メニューの両サイドの縦棒 */
 .y-border {
   border-left: 0.4rem double white;
   border-right: 0.4rem double white;
 }
 
-/* Swiper Contents */
+/* ------ */
+/* Swiper */
+/* ------ */
 .swiper-container {
   width: 300px;
   height: 155px;
@@ -83,12 +89,16 @@ hr {
   }
 }
 
+/* ---- */
 /* main */
+/* ---- */
 .twoColumn-container {
   @apply lg:flex lg:justify-between;
 }
 
+/* -------- */
 /* TopTitle */
+/* -------- */
 .top-description {
   border-top: 0.2rem solid var(--mhd-gold);
 }
@@ -115,7 +125,7 @@ hr {
 
 .tabs {
   @apply p-1 text-center w-3/6 cursor-pointer box-content relative;
-  background: rgba(128, 128, 128, 0.075);
+  background: var(--mhd-gray);
   border-bottom: 1px solid rgba(0, 0, 0, 0.274);
   outline: none;
 }
@@ -180,6 +190,25 @@ hr {
     width: 800px;
     height: 450px;
   }
+}
+
+/* ---------- */
+/* BottomMenu */
+/* ---------- */
+.bottom-menu {
+  @apply fixed flex w-full md:hidden;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+  background: var(--mhd-blue);
+}
+
+.bottom-menu-lists {
+  @apply w-full px-1 list-none text-center;
+}
+
+.bottom-menu-lists img {
+  @apply mt-1 !important;
 }
 
 @tailwind utilities;
