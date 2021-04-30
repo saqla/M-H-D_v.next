@@ -6,6 +6,7 @@ import { SwiperComponent } from '../components/Main/Swiper'
 import { TopTitle } from '../components/Main/TopTitle'
 import { Tabs } from '../components/Main/Tabs'
 import { GlobalMenu } from '../components/Header/GlobalMenu'
+import { BottomMenu } from '../components/Footer/BottomMenu'
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       <footer>
         <Footer />
       </footer>
+        <BottomMenu />
     </div>
   )
 }
