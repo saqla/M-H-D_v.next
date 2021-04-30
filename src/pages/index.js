@@ -34,8 +34,8 @@ export default function Home() {
 
       <footer>
         <Footer />
-      </footer>
         <BottomMenu />
+      </footer>
     </div>
   )
 }
