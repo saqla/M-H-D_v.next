@@ -56,7 +56,7 @@ const Tabs = () => {
       contentPackage: (
         // information
         <>
-          <div className='mb-5'>
+          <div className='information'>
             <h3>~FC紹介~</h3>
             <p>
               うちは社会人FCなので、平日夕方&#x1f307;から休日&#x1f3d6;に２～５人ほどが活動している
@@ -69,13 +69,13 @@ const Tabs = () => {
               バトル好きの方など巣立って行った人を含めいろんなタイプがいますので、
               新規・ベテラン問わずまずは体験からどうですか？&#x1f97a;
             </p>
-            <span className='flex justify-center mt-3'>
+            <p>
               &#x1f449;
               <Link href='https://jp.finalfantasyxiv.com/lodestone/community_finder/628b924a3b49d859756021ce26ce23194904e3ba/'>
                 コミュニティファインダー
               </Link>
               &#x1f448;
-            </span>
+            </p>
           </div>
           <hr />
           {/* member */}
