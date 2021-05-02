@@ -74,15 +74,15 @@ const Tabs = () => {
           {/* member */}
           <div>
             <h3>&#9734; メンバー一覧 &#9734;</h3>
-            <ul className='flex flex-wrap'>
+            <ul className='flex justify-center flex-wrap'>
               {MEMBERS.map((member) => {
                 return (
-                  <li key={member.membersId} className='mx-1'>
+                  <li key={member.membersId} className='mx-2'>
                     <Image
                       src={member.src}
                       alt={member.alt}
-                      width={90}
-                      height={90}
+                      width={85}
+                      height={85}
                     />
                     <p className='text-center'>{member.name}</p>
                   </li>
@@ -101,16 +101,21 @@ const Tabs = () => {
         <>
           <div>
             <h3>PLL速報</h3>
-            <p className='pll-span'>
+            <div className='pll-span'>
               <span className='text-red-600'>※</span>
-              気付いた時点での情報になるので速報と言うほど早く無いかも（；^ω^）
-            </p>
+              <p>
+                気付いた時点⏳での情報になるので、速報と言うほどは早く無いかもしれませんが...
+                よろしければご活用ください。(๑╹ω╹๑ )
+              </p>
+            </div>
             <hr />
             <div className='m-auto'>
               <h3 className='pll-movie'>
-                第63回
-                <br />
-                FFXIVプロデューサーレターLIVE
+                <p>
+                  第63回
+                  <br />
+                  FFXIVプロデューサーレターLIVE
+                </p>
               </h3>
               <iframe
                 width='300'
@@ -121,12 +126,17 @@ const Tabs = () => {
                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                 allowfullscreen
               ></iframe>
+              <p className='pll-description'>
+                今回のプロデューサーレターLIVEは、パッチ5.5「黎明の死闘」の最新情報について、実機プレイを交えつつお届けします！
+              </p>
             </div>
 
             <p className='mt-3 text-center'>
-              第63回公式PLLまとめ →
+              第63回公式PLLまとめ →{' '}
               <Link href='https://forum.square-enix.com/ffxiv/threads/434924'>
-                こちら
+                <span>
+                  <a className='inline-block'>こちら</a>
+                </span>
               </Link>
             </p>
 
@@ -134,22 +144,25 @@ const Tabs = () => {
             {/* <br> */}
             {/* <h4><span>☆告知☆</span> 第57回FFXIVプロデューサーレターLIVE</h4> */}
             {/* <p><u>日時  2020年2月6日（木）20:00頃から</u><br><br>詳しくは『<a href="https://jp.finalfantasyxiv.com/lodestone/topics/detail/fa7959927124a9084bbb205ae08dfcc4987212b0">こちら</a>』をご覧ください。</p> */}
-
-            {/* <h4 class="text-center">パッチ5.3 特設サイトは <a href="https://jp.finalfantasyxiv.com/shadowbringers/patch_5_3/">こちら</a> </h4> */}
             <hr />
 
-            <h3>パッチノート</h3>
-            <ul className='flex-around text-base md:text-2xl tracking-widest'>
-              <li>
-                最新
+            <h4 className="flex justify-center mb-2 md:text-3xl">パッチノート</h4>
+            <div className="flex justify-center text-base mb-3 md:text-2xl">
+              <Link href='https://jp.finalfantasyxiv.com/shadowbringers/patch_5_5/'>
+                <a>パッチ5.5 特設サイト</a>
+              </Link>
+            </div>
+            <ul className='flex-around flex-wrap text-base md:text-2xl tracking-widest'>
+              <li className='mr-1'>
+                <p>最新</p>
                 <Link href='https://jp.finalfantasyxiv.com/lodestone/topics/detail/f427e511207e1629b3e611662cf08321937e7389'>
-                  <a>Patch5.5</a>
+                  <a>パッチ5.5</a>
                 </Link>
               </li>
               <li>
-                過去の
+                <p>過去</p>
                 <Link href='https://jp.finalfantasyxiv.com/lodestone/special/patchnote_log/'>
-                  パッチノート一覧
+                  <a>パッチノート一覧</a>
                 </Link>
               </li>
             </ul>
@@ -183,7 +196,7 @@ const Tabs = () => {
   ]
 
   return (
-    <div className='tabs-container'>
+    <div className='tabs-container lg:mb-3'>
       <ul className='w-full flex'>
         {TABSTITLES.map((item) => {
           return (

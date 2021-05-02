@@ -12,10 +12,10 @@ SwiperCore.use([Navigation, Pagination, EffectCube, Autoplay])
 
 const SWIPERITEMS = [
   {
-    // 5.5パッチノート公開（本公開版）
-    href: 'https://sqex.to/7J7qa',
+    // デジタルファンフェス
+    href: 'https://sqex.to/S0eaN',
     src:
-      'https://img.finalfantasyxiv.com/n/e9064e6f6a094d1c17bd01fa331fff7933dd5602.png?1618309015',
+      'https://img.finalfantasyxiv.com/n/fe19133ea0935e1ab9668450a18394468c11d120.png?1618309015',
   },
   {
     // オンラインストア アルフィノなりきりセット
@@ -28,12 +28,6 @@ const SWIPERITEMS = [
     href: 'https://sqex.to/3drNc',
     src:
       'https://img.finalfantasyxiv.com/n/821e34bb00fe0d35fcac029694f11184f2fd8eef.png?1618309015',
-  },
-  {
-    // デジタルファンフェス
-    href: 'https://sqex.to/S0eaN',
-    src:
-      'https://img.finalfantasyxiv.com/n/fe19133ea0935e1ab9668450a18394468c11d120.png?1618309015',
   },
 ]
 

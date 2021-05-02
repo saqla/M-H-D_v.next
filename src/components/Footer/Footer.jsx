@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <div className='flex justify-center items-center bg-gray-200 mt-2 mb-24 md:mb-0'>
+    <div className='flex justify-center items-center bg-gray-300 mb-24 md:mb-0'>
       <p className='text-xs md:text-base text-center p-3 break-words'>
         記載されている会社名・製品名・システム名などは、各社の商標、または登録商標です。
         <br />

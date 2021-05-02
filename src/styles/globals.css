@@ -107,20 +107,10 @@ hr {
 .tabs-container {
   @apply flex relative;
   flex-direction: column;
-  width: 338px;
+  width: 70%;
   background: #f1f1f1;
   margin: 15px auto 0;
   border: 1px solid rgba(0, 0, 0, 0.274);
-}
-@screen md {
-  .tabs-container {
-    width: 691px;
-  }
-}
-@screen lg {
-  .tabs-container {
-    width: 922px;
-  }
 }
 
 .tabs {
@@ -172,24 +162,20 @@ hr {
   @apply text-sm mb-4 text-center !important;
 }
 
+.pll-span>p {
+  @apply text-sm xl:text-base inline !important;
+}
+
 .pll-movie {
-  @apply text-lg !important;
+  @apply text-lg md:text-4xl !important;
 }
-@screen md {
-  .pll-movie {
-    @apply text-4xl !important;
-  }
-  iframe {
-    width: 614px;
-    height: 370px;
-    margin: auto;
-  }
+
+iframe {
+  @apply w-full md:h-80 m-auto;
 }
-@screen lg {
-  iframe {
-    width: 800px;
-    height: 450px;
-  }
+
+.pll-description {
+  @apply text-sm md:text-base my-2 !important;
 }
 
 /* ---------- */
@@ -197,7 +183,7 @@ hr {
 /* ---------- */
 .bottom-menu {
   @apply fixed flex w-full md:hidden;
-  height: 100px;
+  height: 90px;
   left: 0;
   bottom: 0;
   background: var(--mhd-blue);
@@ -209,6 +195,45 @@ hr {
 
 .bottom-menu-lists img {
   @apply mt-1 !important;
+}
+
+/* right-contents */
+.right-contents {
+  @apply bg-gray-200 lg:bg-white;
+}
+
+/* ----- */
+/* Aside */
+/* ----- */
+.aside-container {
+  @apply m-auto mt-4 w-72 md:w-full h-full lg:w-72;
+}
+
+.forum {
+  background: rgb(235, 235, 202);
+  border-radius: 1rem 0 0 1rem;
+}
+
+.mogStation {
+  background: rgb(254, 254, 255);
+}
+
+.blog {
+  background: rgb(21, 52, 146);
+  border-radius: 0 1rem 1rem 0;
+}
+
+.banner-list {
+  @apply flex-around mb-2;
+  border: 0.5px solid black;
+}
+
+.banner-list:last-child {
+  @apply mb-0;
+}
+
+.banner-list img {
+  @apply w-72 !important;
 }
 
 @tailwind utilities;
