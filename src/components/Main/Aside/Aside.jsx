@@ -82,7 +82,7 @@ const Aside = () => {
           return (
             <Link key={item.alt} href={item.href}>
               <li key={item.href} className='banner-list'>
-                <Image src={item.src} alt={item.alt} width={280} height={90} />
+                <Image src={item.src} alt={item.alt} width={280} height={80} />
               </li>
             </Link>
           )
