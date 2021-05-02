@@ -33,7 +33,8 @@ const BANNERITEMS = [
   },
   {
     // FINAL FANTASY XIV COMPANION
-    href: 'https://jp.finalfantasyxiv.com/companion/?utm_source=lodestone&utm_medium=pc_banner&utm_campaign=jp_app-companion',
+    href:
+      'https://jp.finalfantasyxiv.com/companion/?utm_source=lodestone&utm_medium=pc_banner&utm_campaign=jp_app-companion',
     src:
       'https://img.finalfantasyxiv.com/lds/banner/609/ffxivcompanion_300x80.jpg',
   },
@@ -42,11 +43,11 @@ const BANNERITEMS = [
 const Aside = () => {
   return (
     <div className='aside-container'>
-      <ul className="py-3 md:flex md:justify-center md:flex-wrap md:gap-3 lg:block">
+      <ul className='py-3 md:flex md:justify-center md:flex-wrap md:gap-3 lg:block'>
         {/* フォーラム */}
-        <ul className="flex justify-center mb-2">
+        <ul className='flex justify-center mb-2'>
           <Link href='https://forum.square-enix.com/ffxiv/forum.php?utm_source=lodestone&utm_medium=pc_banner&utm_campaign=jp_forum'>
-            <li className="forum">
+            <li className='forum'>
               <Image
                 src='https://img.finalfantasyxiv.com/lds/h/3/_HKtFrUVpc6uMs5NUag3WWLnIc.png'
                 alt='FORUM'
@@ -55,9 +56,9 @@ const Aside = () => {
               />
             </li>
           </Link>
-        {/* モグステ */}
+          {/* モグステ */}
           <Link href='https://sqex.to/Msp?utm_source=lodestone&utm_medium=pc_banner&utm_campaign=jp_mogstation'>
-            <li className="mogStation">
+            <li className='mogStation'>
               <Image
                 src='https://img.finalfantasyxiv.com/lds/h/3/GjsnqfVxPQrE4Jve8GvKZABF5w.png'
                 alt='MogStation'
@@ -66,9 +67,9 @@ const Aside = () => {
               />
             </li>
           </Link>
-        {/* ブログ */}
+          {/* ブログ */}
           <Link href='https://jp.finalfantasyxiv.com/pr/blog/?utm_source=lodestone&utm_medium=pc_banner&utm_campaign=jp_officalblog'>
-            <li className="blog">
+            <li className='blog'>
               <Image
                 src='https://img.finalfantasyxiv.com/lds/h/C/Zft_LbIdHU4rMO4a4pC33zW1mE.png'
                 alt='OFFICIAL BLOG'

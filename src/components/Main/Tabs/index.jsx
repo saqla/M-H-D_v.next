@@ -69,6 +69,13 @@ const Tabs = () => {
               バトル好きの方など巣立って行った人を含めいろんなタイプがいますので、
               新規・ベテラン問わずまずは体験からどうですか？&#x1f97a;
             </p>
+            <span className='flex justify-center mt-3'>
+              &#x1f449;
+              <Link href='https://jp.finalfantasyxiv.com/lodestone/community_finder/628b924a3b49d859756021ce26ce23194904e3ba/'>
+                コミュニティファインダー
+              </Link>
+              &#x1f448;
+            </span>
           </div>
           <hr />
           {/* member */}
@@ -146,8 +153,10 @@ const Tabs = () => {
             {/* <p><u>日時  2020年2月6日（木）20:00頃から</u><br><br>詳しくは『<a href="https://jp.finalfantasyxiv.com/lodestone/topics/detail/fa7959927124a9084bbb205ae08dfcc4987212b0">こちら</a>』をご覧ください。</p> */}
             <hr />
 
-            <h4 className="flex justify-center mb-2 md:text-3xl">パッチノート</h4>
-            <div className="flex justify-center text-base mb-3 md:text-2xl">
+            <h4 className='flex justify-center mb-2 md:text-3xl'>
+              パッチノート
+            </h4>
+            <div className='flex justify-center text-base mb-3 md:text-2xl'>
               <Link href='https://jp.finalfantasyxiv.com/shadowbringers/patch_5_5/'>
                 <a>パッチ5.5 特設サイト</a>
               </Link>
