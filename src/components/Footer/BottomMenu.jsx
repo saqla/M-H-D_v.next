@@ -12,16 +12,16 @@ const BOTTOMMENUITEMS = [
     src: '/ingenuity.png',
     alt: 'トピックス',
   },
-  {
-    href: '/',
-    src: '/display_order_hotbar.png',
-    alt: '支援協力',
-  },
-  {
-    href: '/',
-    src: '/repair.png',
-    alt: '設定参考',
-  },
+  // {
+  //   href: '/',
+  //   src: '/display_order_hotbar.png',
+  //   alt: '支援協力',
+  // },
+  // {
+  //   href: '/',
+  //   src: '/repair.png',
+  //   alt: '設定参考',
+  // },
 ]
 
 export const BottomMenu = () => {
@@ -33,7 +33,7 @@ export const BottomMenu = () => {
           <li key={item.href} className='bottom-menu-lists'>
             <Link href={item.href}>
               <a>
-                <Image src={item.src} width={75} height={75} />
+                <Image src={item.src} width={65} height={65} />
                 <br />
               <p className="-mt-1 text-white">{item.alt}</p>
               </a>

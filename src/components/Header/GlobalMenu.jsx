@@ -9,14 +9,14 @@ const MENUITEMS = [
     href: 'https://jp.finalfantasyxiv.com/lodestone/',
     title: 'トピックス',
   },
-  {
-    href: '/',
-    title: '支援協力',
-  },
-  {
-    href: '/',
-    title: '設定参考',
-  },
+  // {
+  //   href: '/',
+  //   title: '支援協力',
+  // },
+  // {
+  //   href: '/',
+  //   title: '設定参考',
+  // },
 ]
 
 export const GlobalMenu = () => {
