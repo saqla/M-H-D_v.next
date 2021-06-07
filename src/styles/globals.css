@@ -245,4 +245,10 @@ iframe {
   @apply w-72 !important;
 }
 
+/* ------ */
+/* Footer */
+/* ------ */
+.footer-mb {
+  margin-bottom: 90px;
+}
 @tailwind utilities;
