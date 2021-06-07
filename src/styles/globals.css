@@ -48,7 +48,12 @@ hr {
 /* ------ */
 .swiper-container {
   width: 300px;
-  height: 155px;
+  height: 115px;
+}
+@screen md {
+  .swiper-container {
+    height: 170px !important;
+  }
 }
 
 .swiper-wrapper {
@@ -57,18 +62,18 @@ hr {
 
 .swiper-container .swiper-button-prev {
   left: 50px;
-  top: 50%;
+  top: 35%;
   opacity: 0.5;
   display: none;
-  @apply lg:flex lg:left-5;
+  @apply lg:flex lg:left-4;
 }
 
 .swiper-container .swiper-button-next {
   right: 50px;
-  top: 50%;
+  top: 35%;
   opacity: 0.5;
   display: none;
-  @apply lg:flex lg:right-5;
+  @apply lg:flex lg:right-4;
 }
 
 .swiper-cube-shadow {
@@ -81,7 +86,7 @@ hr {
 @screen lg {
   .swiper-container {
     width: 682px !important;
-    /* height: 240px; */
+    height: 200px !important;
   }
   .swiper-images {
     width: 545px;

@@ -12,22 +12,16 @@ SwiperCore.use([Navigation, Pagination, EffectCube, Autoplay])
 
 const SWIPERITEMS = [
   {
-    // デジタルファンフェス
-    href: 'https://sqex.to/S0eaN',
+    // 最新拡張パッケージ　予約開始
+    href: 'https://jp.finalfantasyxiv.com/lodestone/topics/detail/5f4efcf41089816a231d22917c4e4bb7009cb0bf',
     src:
-      'https://img.finalfantasyxiv.com/n/fe19133ea0935e1ab9668450a18394468c11d120.png?1618309015',
+      'https://img.finalfantasyxiv.com/t/5f4efcf41089816a231d22917c4e4bb7009cb0bf.png?1621054248?16207955421620795542',
   },
   {
-    // オンラインストア アルフィノなりきりセット
-    href: 'https://sqex.to/qkUZv',
+    //LINEスタンプ第３弾
+    href: 'https://jp.finalfantasyxiv.com/lodestone/topics/detail/7e8a8d0cd82f28d9bfb4d19f2eef2f2f2fc290a5',
     src:
-      'https://img.finalfantasyxiv.com/n/59901b3ee1d4d2db4f83284ad37dc675fdb2a047.png?1618309015',
-  },
-  {
-    // PS5版 βテスト開始
-    href: 'https://sqex.to/3drNc',
-    src:
-      'https://img.finalfantasyxiv.com/n/821e34bb00fe0d35fcac029694f11184f2fd8eef.png?1618309015',
+      'https://img.finalfantasyxiv.com/t/7e8a8d0cd82f28d9bfb4d19f2eef2f2f2fc290a5.png?16219083385',
   },
 ]
 
